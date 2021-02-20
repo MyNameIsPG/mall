@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.pg.mall.product.dao.SysMenuDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.pg.mall.product.entity.SysMenuEntity" id="sysMenuMap">
+        <result property="uuid" column="uuid"/>
+        <result property="name" column="name"/>
+        <result property="level" column="level"/>
+        <result property="icon" column="icon"/>
+        <result property="url" column="url"/>
+        <result property="menuUuid" column="menu_uuid"/>
+        <result property="isDelete" column="is_delete"/>
+        <result property="createTime" column="create_time"/>
+        <result property="modifyTime" column="modify_time"/>
+    </resultMap>
+
+
+</mapper>

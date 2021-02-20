@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.pg.mall.product.dao.ProductStockDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.pg.mall.product.entity.ProductStockEntity" id="productStockMap">
+        <result property="uuid" column="uuid"/>
+        <result property="combinationId" column="combination_id"/>
+        <result property="productId" column="product_id"/>
+        <result property="modifyTime" column="modify_time"/>
+        <result property="createTime" column="create_time"/>
+    </resultMap>
+
+
+</mapper>

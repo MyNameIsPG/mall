@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.pg.mall.product.dao.UserDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.pg.mall.product.entity.UserEntity" id="userMap">
+        <result property="uuid" column="uuid"/>
+        <result property="nickname" column="nickname"/>
+        <result property="name" column="name"/>
+        <result property="sex" column="sex"/>
+        <result property="birthday" column="birthday"/>
+        <result property="headImageurl" column="head_imageurl"/>
+        <result property="mobile" column="mobile"/>
+        <result property="pointNumber" column="point_number"/>
+        <result property="levelId" column="level_id"/>
+        <result property="isDelete" column="is_delete"/>
+        <result property="modifyTime" column="modify_time"/>
+        <result property="createTime" column="create_time"/>
+        <result property="provinceId" column="province_id"/>
+        <result property="cityId" column="city_id"/>
+        <result property="areaId" column="area_id"/>
+        <result property="address" column="address"/>
+    </resultMap>
+
+
+</mapper>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.pg.mall.product.dao.UserWxDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.pg.mall.product.entity.UserWxEntity" id="userWxMap">
+        <result property="uuid" column="uuid"/>
+        <result property="nickName" column="nick_name"/>
+        <result property="openId" column="open_id"/>
+        <result property="bindUser" column="bind_user"/>
+        <result property="gender" column="gender"/>
+        <result property="avatarUrl" column="avatar_url"/>
+        <result property="createTime" column="create_time"/>
+        <result property="updateTime" column="update_time"/>
+    </resultMap>
+
+
+</mapper>

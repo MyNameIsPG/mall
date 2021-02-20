@@ -1,0 +1,15 @@
+server:
+  port: 2000
+
+spring:
+  datasource:
+    username: root
+    password: 123456
+    url: jdbc:mysql://localhost:3306/cloudcity?useUnicode=true&characterEncoding=UTF-8&useSSL=false&serverTimezone=Asia/Shanghai
+    driver-class-name: com.mysql.jdbc.Driver
+
+mybatis-plus:
+  mapperLocations: classpath:mapper/*.xml
+  global-config:
+    db-config:
+      id-type: uuid

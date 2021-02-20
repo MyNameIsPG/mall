@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.pg.mall.product.dao.OrdersDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.pg.mall.product.entity.OrdersEntity" id="ordersMap">
+        <result property="uuid" column="uuid"/>
+        <result property="字段46" column="字段46"/>
+        <result property="字段47" column="字段47"/>
+        <result property="字段48" column="字段48"/>
+        <result property="字段49" column="字段49"/>
+        <result property="字段50" column="字段50"/>
+    </resultMap>
+
+
+</mapper>
